@@ -1,0 +1,42 @@
+Question 1 Answer: -
+
+Trying to put a String into a Container<Integer> results
+in a compile-time error. This is useful because it enforces
+type safety and prevents runtime ClassCastExceptions.
+------------------------------------------------------------
+
+Question 2 Answer: -
+
+Yes, a method's generic type can be different from the
+class's generic type. Method generics are scoped to that
+method.
+-----------------------------------------------------------
+
+Question 3 Answer: -
+
+Declaring NumberStats<String> results in a compile-time
+error. <T extends Number> ensures only numeric types are
+allowed.
+----------------------------------------------------------
+
+Question 4 Answer: -
+
+Wildcards (<?> and <? extends Number>) allow flexibility
+to operate on a variety of types while maintaining type
+safety.
+----------------------------------------------------------
+
+Question 5 Answer: -
+
+No question asked here. Just write code -> i. Repository
+interface with methods -> a. saveBook(Book book)
+b. findByID which return Book.
+c. subclass -> BookRepository -> interface method.
+d. An entity class called Book with private field:
+   -> Name (book name).
+   -> ID (id of the book).
+
+-----------------------------------------------------------
+
+
+
